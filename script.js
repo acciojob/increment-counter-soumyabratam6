@@ -6,7 +6,7 @@ incrementButton.addEventListener('click', () => {
         const currentValue = parseInt(counterParagraph.textContent);
         
         // Display an alert with the current value
-        alert('Current counter value: ' + currentValue);
+        alert(currentValue);
         
         // Increment the counter value by 1
         const newValue = currentValue + 1;
